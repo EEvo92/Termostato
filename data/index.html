@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TERMOSTATO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/all/gauge.min.js"></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <h1>TERMOSTATO</h1>
+    </div>
+    <div class="content">
+      <div class="card-button">
+        <button id="1" class="buttonONOFF" onclick="changeParameter(this)">Encender</button>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <p class="card-title">Temperatura de encendido</p>
+          <p class="card-title" id="tempON"></p>
+        </div>
+        <div class="card">
+          <p class="card-title">Temperatura Ambiente</p>
+          <p class="card-title" id="tempAmb"></p>
+        </div>
+        
+      </div>
+      <div class="card-button">
+        <button id="2" class="buttonTEMPUP" onclick="changeParameter(this)">Subir Temperatura</button>
+        <button id="3" class="buttonTEMPDOWN" onclick="changeParameter(this)">Bajar Temperatura</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

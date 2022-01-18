@@ -1,0 +1,65 @@
+html {
+  font-family: Arial, Helvetica, sans-serif; 
+  display: inline-block; 
+  text-align: center;
+}
+h1 {
+  font-size: 1.8rem; 
+  color: white;
+}
+p { 
+  font-size: 1.4rem;
+}
+.topnav { 
+  overflow: hidden; 
+  background-color: #2a5cff;
+}
+body {  
+  margin: 0;
+}
+.content { 
+  padding: 5%;
+}
+.card-grid { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  display: grid; 
+  grid-gap: 1rem; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card-button { 
+  max-width: 1200px; 
+  margin: auto; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: grid; 
+  grid-gap: 1rem; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card { 
+  background-color: white; 
+  box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+}
+.card-title { 
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00182e
+}
+.buttonONOFF{
+  background-color: white;
+  height: 80px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.buttonTEMPUP{
+  background-color: rgb(245, 101, 101);
+  height: 80px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.buttonTEMPDOWN{
+  background-color: rgb(107, 160, 240);
+  height: 80px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
